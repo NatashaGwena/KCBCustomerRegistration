@@ -1,7 +1,8 @@
 import React, { Component } from "react";
+import axios from 'axios';
 
 class RegistrationComponent extends Component{
-
+  
     constructor(props){
         super(props)
         this.state={
