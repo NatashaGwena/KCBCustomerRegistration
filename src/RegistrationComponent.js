@@ -56,6 +56,8 @@ class RegistrationComponent extends Component{
         this.setState({emailId: event.target.value});
     }
 
+
+    
     changeIDNumberHandler=(event)=>{
         this.setState({idnumber: event.target.value});
     }
